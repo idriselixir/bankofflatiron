@@ -1,7 +1,6 @@
 import React from 'react';
 
-function TransactionTable(props) {
-  const { transactions } = props;
+function TransactionTable({ transactions }) {
 
   return (
     <table>

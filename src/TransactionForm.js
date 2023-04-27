@@ -42,7 +42,7 @@ function TransactionForm({ addTransaction }) {
         Amount:
         <input
           type="number"
-          value={amount}
+          value={amount}S
           onChange={(e) => setAmount(e.target.value)}
         />
       </label>
